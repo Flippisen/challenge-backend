@@ -31,5 +31,12 @@
       "pre-commit": "yarn husky:precommit",
       "pre-push": "yarn husky:prepush"
     }
+  },
+  "dependencies": {
+    "@typegoose/typegoose": "^7.1.2",
+    "express": "^4.17.1",
+    "graphql": "^15.0.0",
+    "mongoose": "^5.9.14",
+    "type-graphql": "^1.0.0-rc.1"
   }
 }
