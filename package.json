@@ -19,7 +19,7 @@
   "scripts": {
     "husky:prepush": "tsc --noEmit && yarn test",
     "husky:precommit": "lint-staged",
-    "test": "jest"
+    "test": "jest --passWithNoTests"
   },
   "lint-staged": {
     "src/**/*.(js|ts)": [
