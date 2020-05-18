@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "lib": ["es2017", "dom"],
+    "moduleResolution": "node",
+    "outDir": ".build",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": false,
+    "noImplicitThis": false,
+    "strictNullChecks": false,
+    "noImplicitReturns": false,
+    "preserveConstEnums": false,
+    "suppressImplicitAnyIndexErrors": false,
+    "noErrorTruncation": false,
+    "resolveJsonModule": true,
+    "types": ["node", "jest"],
+    "typeRoots": ["node_modules/@types"],
+    /* Advanced Options */
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["**/*.json", "*", "**/*.html", "**/*.ts", "**/*.js"]
+}
