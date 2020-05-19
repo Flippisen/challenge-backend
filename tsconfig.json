@@ -21,7 +21,8 @@
     "typeRoots": ["node_modules/@types"],
     /* Advanced Options */
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true
   },
   "include": ["**/*.json", "*", "**/*.html", "**/*.ts", "**/*.js"]
 }
