@@ -20,5 +20,7 @@ module.exports = {
     '@typescript-eslint',
   ],
   'rules': {
+    'require-jsdoc': 'off',
+    'object-curly-spacing': ['error', 'always'],
   },
 };
