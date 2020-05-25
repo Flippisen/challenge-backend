@@ -22,5 +22,7 @@ module.exports = {
   'rules': {
     'require-jsdoc': 'off',
     'object-curly-spacing': ['error', 'always'],
+    'no-unused-vars': 'off',
+    'linebreak-style': 'off',
   },
 };
