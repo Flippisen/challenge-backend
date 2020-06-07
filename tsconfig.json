@@ -17,9 +17,8 @@
     "suppressImplicitAnyIndexErrors": false,
     "noErrorTruncation": false,
     "resolveJsonModule": true,
-    "types": ["node", "jest"],
+    "types": ["node", "jest", "reflect-metadata"],
     "typeRoots": ["node_modules/@types"],
-    /* Advanced Options */
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "experimentalDecorators": true,
