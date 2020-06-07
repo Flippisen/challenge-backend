@@ -16,10 +16,12 @@ export class MongoChallengeRepository implements ChallengeRepository {
     }
 
     public async getAll(): Promise<Challenge[]> {
-      return [];
+      const db = await this.db;
+      return db.ChallengeModel.find();
     }
 
-    public async addOne(): Promise<Challenge> {
-      return undefined;
+    public async addOne(challenge: Challenge): Promise<Challenge> {
+      const db = await this.db;
+      return db.ChallengeModel.create(challenge);
     }
 }
