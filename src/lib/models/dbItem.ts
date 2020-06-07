@@ -1,6 +1,10 @@
+import { prop } from '@typegoose/typegoose';
+
 export class DbItem {
-    public id: string;
-    public createdAt: number;
-    public updatedAt: number;
-    public deletedAt: number;
+    @prop({ index: true })
+    public id?: string;
+    @prop()
+    public createdAt?: number;
+    @prop()
+    public updatedAt?: number;
 }
