@@ -4,8 +4,9 @@ import { ChallengeRepository } from './interfaces/challengeRepository';
 import { DependencyInjection } from '../util/dependencyInjection/dependencyInjection';
 import { ConnectionProvider } from '../util/interface/connectionProvider';
 import { injector } from '../util/dependencyInjection/inversify.config';
-import { inject } from 'inversify';
+import { inject, injectable } from 'inversify';
 
+@injectable()
 export class MongoChallengeRepository implements ChallengeRepository {
     db: Promise<Db>;
 
